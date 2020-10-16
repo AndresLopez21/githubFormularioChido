@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <table border="1" width="40%">
+        <form action="#" method="post">
+            <fieldset>
+            <legend><h1> Datos Personales </h1></legend>
+            </fieldset>
+            <tr>
+            <th>Digita tu Nombre</th>
+            <th><input type="text" name="Nombre" placeholder="Nombre"></th>
+            </tr>
+            <tr>
+            <th>Digita tu Edad</th>
+            <th><input type="number" name="Edad" placeholder="Edad"></th>
+            </tr>
+            <th>Contraseña</th>
+            <th><input type="password" name="Contraseña" placeholder="Contraseña"></th>
+            <tr>
+            <th>Fecha</th>
+            <th><input type="date" name="Fecha"></th>
+            </tr>
+            <tr>
+            <th>Hora</th>
+            <th><input type="time" name="Hora"></th>
+            </tr>
+            <tr>
+            <th><legend>Seleccione con que cuenta en su Hogar</th></legend>
+            </tr>
+            <tr>
+            <td><input type="checkbox" value="Casa" name="Casa" checked>Casa</td>
+            <td><input type="checkbox" value="Computadora" name="Computadora">Computadora</td>
+            <td><input type="checkbox" value="Internet" name="Internet">Internet</td>
+            </tr>
+            <tr>
+            <td><input type="checkbox" value="Telefono Celular" name="Telefono Celular">Telefono Celular</td>
+            <td><input type="checkbox" value="Servicio de Cable" name="Servicio de Cable">Servicio de Cable</td>
+            <td><input type="checkbox" value="Consola de Videojuegos" name="Consola de Videojuegos">Consola de Videojuegos</td>
+            </tr>
+            <tr>
+            <td><input type="checkbox" value="Servicio de Agua" name="Servicio de Agua">Servicio de Agua</td>
+            <td><input type="checkbox" value="Caseta de Seguridad" name="Caseta de Seguridad">Caseta de Seguridad</td>
+            <td><input type="checkbox" value="Vehículo" name="Vehículo">Vehículo</td>
+            </tr>
+            <tr>
+            <th>Estado Actual</th>
+            <th><select name="Estado" id="">
+                <option value="Ciudad de México">Ciudad de México</option>
+                <option value="Estado de México">Estado de México</option>
+                <option value="Puebla">Puebla</option>
+                <option value="Guerrero">Guerrero</option>
+                <option value="Cuernavaca">Cuernavaca</option>
+                <option value="Veracruz">Veracruz</option>
+                <option value="Monterrey">Monterrey</option>
+            </select></th>
+            </tr>
+            <tr>
+            <th><legend>Género</legend></th>
+            </tr>
+            <tr>
+            <label for="Género">
+            <td><input type="radio" name="Género" id="Género">Masculino</td>
+            <td><input type="radio" name="Género" id="Género">Femenino</td>
+            <td><input type="radio" name="Género" id="Género">Otro</td>
+            </label>
+            </tr>
+        </form>
+        </table>
+</body>
+</html>
